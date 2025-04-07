@@ -13,12 +13,14 @@ Legal PDF Analyzer is an interactive web application built with Streamlit that a
   - File names and sizes.
   - First-page text preview from each document.
   - Predicted **legal category** of each document (e.g., Contract Law, Property Law, Employment Law).
+![Tab 1 Screenshot](tab1.png) 
 
 ### 💬 Tab 2: PDF Analyzer (Q&A)
 - Ask questions directly from the uploaded documents.
 - Uses **Google Generative AI (Gemini)** via LangChain to retrieve accurate, context-based answers.
 - Built-in FAISS vector database for efficient similarity search on extracted text.
 - Custom prompt template to ensure legally sound and accurate responses.
+![Tab 2 Screenshot](tab2.png)
 
 ---
 
@@ -91,13 +93,3 @@ legal-pdf-analyzer/
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software.
-
----
-
-## 👨‍💻 Author
-
-Developed by [Your Name / GitHub Handle]  
-Feel free to reach out for contributions, feedback, or collaboration!
